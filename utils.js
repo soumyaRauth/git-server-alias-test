@@ -9,6 +9,7 @@ const add = (a, b, ...rest) => {
 };
 
 const subtract = (a, b) => {
+  console.log("a, b");
   console.log(a, b);
   return a - b;
 };

@@ -8,6 +8,9 @@ const add = (a, b, ...rest) => {
   );
 };
 
+const subtract = (a, b) => {
+  return a - b;
+};
 console.log(subtract(10, 5));
 
 const multiply = (a, b) => {
